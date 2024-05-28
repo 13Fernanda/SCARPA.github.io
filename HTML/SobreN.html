@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+    <link href="../css/Sobren.css" rel="stylesheet" />
+    <title>HOME</title>
+    <meta charset ="UTF-8">
+</head>
+<body>
+<header>
+    <a href="Inicio.html" class="logo">SCARPA
+        <img src="../img/Logo.jpg">
+    </a>
+    <nav>
+        <ul>
+            <li><a href="Inicio.html">Inicio</a></li>
+            <li><a href="nuestroS.html" >Nuestros Servicios</a></li>
+            <li><a href="SobreN.html">Sobre Nosotros</a></li>
+            <li><a class="inicia" href="Descarga.html">Inicia Ahora</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="mapa">
+        <h1 class="parrafoT">CONOCE A NUESTRO EQUIPO DE SCARPA</h1>
+        <p class="parrafo">Conócenos, detrás de cada innovación y compromiso hay un equipo dedicado y apasionado.
+            ¡Conoce a quienes están transformando la industria junto a ti!</p>
+    </section>
+<div class="textos">
+    <img src="../img/1-.jpg">
+    <div class="fila-arriba">
+        <div class="textof">
+            <h1>NUESTRO OBJETIVO</h1>
+            <p>Desarrollar un prototipo de sistema de gestión de clientes con capacidad de análisis de datos,
+                con el propósito de optimizar la eficacia y la capacidad de tomar decisiones en el procedimiento
+                de administración de clientes y pedidos de una organización.</p>
+        </div>
+    </div>
+</div>
+        <hr class="linea"> <!-- Línea horizontal -->
+        <section>
+            <div class="mv">
+                <div class="columna">
+                    <h1> NUESTRA MISION</h1>
+                    <p> Facilitar el éxito y crecimiento sostenible de nuestros clientes mediante soluciones innovadoras  que optimicen  procesos, promuevan la eficiencia y consolidar vínculos sólidos
+                        para impulsar el progreso y la excelencia empresarial.</p>
+                </div>
+                <div class="espacio"></div>
+                <div class="columna">
+                    <H1>NUESTRA VISION</H1>
+                    <p> Liderar la transformación digital como el socio preferido de las empresas, brindando soluciones inteligentes que inspiran confianza y promueven la innovación
+                        para lograr la eficiencia y el éxito.</p>
+                </div>
+            </div>
+        </section>
+<section>
+    <div class="frase">
+        <h1>"Somos más que un equipo, una familia comprometida con el progreso de tu negocio.
+            Descubre cómo nuestra pasión por el calzado se refleja en cada solución que ofrecemos."</h1>
+    </div>
+</section>
+<section class="textoss">
+    <h1>CONOCE A NUESTRO EQUIPO</h1>
+</section>
+<div class="texts">
+    <img class="img1" src="../img/1-.jpg">
+    <div class="fila-arriba">
+        <div class="textof">
+            <h1>JUAN CAMILO SANABRIA </h1>
+            <h3>Estudiante de Ingenieria de sistemas</h3>
+            <p>Somos un equipo de estudiantes de Ingenieria de sistemas de octavo semestre y desarrollamos un prototipo de
+                ERP en donde ofrecemos nuestros servicios para la gestión de clientes y pedidos con análisis de datos especializada
+                en pymesa donde nuestros clientes tendran una buena experiencia, todo para la satisfaccion de nuestros usuarios.</p>
+        </div>
+    </div>
+</div>
+<hr class="linea"> <!-- Línea horizontal -->
+<div class="texts2">
+    <img class="img2" src="../img/1-.jpg">
+    <div class="fila-arriba">
+        <div class="textof2">
+            <h1>MARIA FERNANDA MORENO </h1>
+            <h3>Estudiante de Ingenieria de sistemas</h3>
+            <p> Somos un equipo de estudiantes de Ingenieria de sistemas de octavo semestre y desarrollamos un prototipo de
+                ERP en donde ofrecemos nuestros servicios para la gestión de clientes y pedidos con análisis de datos especializada
+                en pymesa donde nuestros clientes tendran una buena experiencia, todo para la satisfaccion de nuestros usuarios.</p>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>0);
+        })
+    </script>
+<footer class="footer">
+    <section class="footer__container container">
+        <nav class="nav__footer nav--footer">
+            <h2 class="footer__title">SERVICIOS LAS 3M</h2>
+
+            <ul class="nav__link nav__link--footer">
+                <li class="nav__items">
+                    <a href="Inicio.html" class="nav__linksf">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="nuestroS.html" class="nav__linksf">Nuestros servicios </a>
+                </li>
+                <li class="nav__items">
+                    <a href="SobreN.html" class="nav__linksf">Sobre Nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="Descarga.html" class="nav__linksf">Descargar </a>
+                </li>
+            </ul>
+        </nav>
+
+        <form class="footer__form" action="https://formspree.io/f/xrgvveeb"
+              method="POST">
+            <h2 class="footer__newsletter">Suscribete gratis</h2>
+            <div class="footer__inputs">
+                <input type="email" placeholder="Email:" class="footer__input"  name="email">
+                <input type="submit" value="Registrarse" class="footer__submit">
+            </div>
+        </form>
+    </section>
+
+    <section class="footer__copy container">
+        <div class="footer__social">
+            <a href="#" class="footer__icons"><img src="../img/facebook.png" class="footer__img"></a>
+            <a href="#" class="footer__icons"><img src="../img/insta.png" class="footer__img"></a>
+            <a href="#" class="footer__icons"><img src="../img/gmail.png" class="footer__img"></a>
+        </div>
+    </section>
+</footer>
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+        if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+                var myLandbot = new Landbot.Livechat({
+                    configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2209921-CFZD806SWK7RY9PP/index.json',
+                });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+    }
+</script>
+<script src="../js/conocenos.js"></script>
+</body>
+</html>
